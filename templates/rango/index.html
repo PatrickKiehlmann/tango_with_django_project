@@ -14,7 +14,8 @@
             hey there partner! <br />
             <strong>{{ boldmessage }}</strong>
         </div>
-        <div> <h3> Most Like Categories </h3>
+        <div> 
+            <h2>Most Liked Categories</h2>
             {% if categories %} 
                 <ul>
                 {% for category in categories%}
@@ -26,7 +27,7 @@
         {% else %}
             <strong>There are no categories present.</strong>
         {% endif %}
-        </div> <h3>Most Viewed Pages</h3>
+        </div> <h2>Most Viewed Pages</h2>
             {% if pages %}
                 <ul>
                 {% for page in pages %}
