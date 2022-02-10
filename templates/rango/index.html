@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+{% load staticfiles %}
+
 <html>
 
     <head>
@@ -12,7 +14,8 @@
             hey there partner! <br />
             <strong>{{ boldmessage }}</strong><br />
         </div>
-        <div> <a href="/rango/about">About</a><br> />
+        <div> <a href="/rango/about">About</a><br />
+            <img src="{% static 'images/winning.jpg' %}" alt="Picture of winning" />
         </div>
     </body>
 
