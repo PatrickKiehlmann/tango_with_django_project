@@ -19,3 +19,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# useful commands for
+# python manage.py migrate
+# python populate.py
+#python manage.py runserver
