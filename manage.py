@@ -25,3 +25,4 @@ if __name__ == '__main__':
 # python manage.py migrate
 # python populate.py
 #python manage.py runserver
+# python manage.py test rango.tests_chapter3.
